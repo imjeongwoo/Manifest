@@ -188,6 +188,7 @@ apiVersion: v1
 metadata:
   name: zeppelin-server
 spec:
+  type: LoadBalancer
   ports:
     - name: http
       port: 80
