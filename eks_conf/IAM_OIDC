@@ -1,0 +1,3 @@
+aws eks describe-cluster --name eks-cluster --query "cluster.identity.oidc.issuer" --output text
+
+aws iam list-open-id-connect-providers | grep $VALUE
