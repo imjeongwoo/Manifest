@@ -21,5 +21,6 @@ eksctl create cluster \
 	--node-volume-size $VOLUME_SIZE \
 	--ssh-public-key $PUBLIC_KEY \
 	--with-oidc \
+	--node-private-networking \
 	--ssh-access \
 	--managed
